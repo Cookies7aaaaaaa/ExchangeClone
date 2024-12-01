@@ -5,18 +5,18 @@ Allows players to turn items into EMC, or Energy Matter Covalence, and EMC into 
 
 ### Mod/game support
 ExchangeClone upports all items in the following mods/games (and anything that can be made from them):
-* Minetest Game
-* MineClone2
-* Mineclonia
-* Technic
-* More Ores
-* Ethereal
-* [Nether]
+* [Minetest Game](https://github.com/minetest/minetest_game)
+* [VoxelLibre(formally MineClone2)](https://git.minetest.land/VoxeLibre/VoxeLibre)
+* [Mineclonia](https://codeberg.org/mineclonia/mineclonia)
+* [Technic](https://github.com/minetest-mods/technic) and some of [Technic Plus](https://github.com/mt-mods/technic)/[Technic Plus Beta](https://github.com/mt-mods/technic.git)
+* [More Ores](https://github.com/minetest-mods/moreores)
+* [Ethereal](https://codeberg.org/tenplus1/ethereal)
+* [Nether](https://github.com/minetest-mods/nether)
 * [Mobs Redo API](https://codeberg.org/tenplus1/mobs_redo) and [Mobs Animals](https://github.con/minetest-mods/mobs_animals)
 * [WIP] [Techage](https://github.com/joe7575/techage_modpack) and/or [Tubelib](https://github.com/joe7575/tubelib2)
 * [WIP] [Logistica](https://github.com/ZenonSeth/logistica)
 
-ExchangeClone is tested with the latest release of Minetest, Minetest Game, MineClone2, and Mineclonia.
+ExchangeClone is tested with the latest release of Minetest, Minetest Game, VoxelLibre, and Mineclonia.
 
 ### Links
 See the [wiki](https://github.com/ThePython10110/ExchangeClone/wiki) for more information
@@ -33,7 +33,7 @@ If you would like to see the latest changes, check out (pun) the dev branch! Bew
 
 [Direct download](https://github.com/ThePython10110/ExchangeClone/archive/refs/heads/main.zip)
 
-Dependencies: Minetest Game or MineClone.
+Dependencies: Minetest Game or MineClonia.
 
 ## Known issues:
 * The sword/katar AOE ability does not take upgrades (looting, fire aspect, etc.) into account. This will probably not be fixed (MCL)
