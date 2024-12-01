@@ -274,6 +274,7 @@ else
         ["default:sand_with_kelp"] = 16,
         ["default:silver_sand"] = 1,
         ["default:snow"] = 1,
+        ["default:steel_ingot"] = 256
 
         ["farming:cotton"] = 12,
         ["farming:cotton_wild"] = 12,
@@ -302,6 +303,11 @@ for itemstring, emc_value in pairs ({
     ["technic:sulfur_lump"] = 128,
     ["technic:uranium_ingot"] = 8192,
     ["technic:zinc_ingot"] = 512,
+    ["technic:stainless_steel_ingot"] = 512,
+    ["technic:wrought_iron_ingot"] = 256,
+    ["technic:carbon_steel_ingot"] = 256,
+    ["technic:cast_iron_ingot"] = 256,
+    ["technic:"] = ,
 
     ["useful_green_potatoes:useful_green_potato"] = 256
 }) do
@@ -607,4 +613,13 @@ else
         "default:bush_stem",
         "default:pine_bush_stem"
     })
+end
+
+iif minetest.get_modpath("Logistica") then
+    for item, emc in pairs({
+        ["logistica:"] = ,
+        ["logistica:"] = ,
+    }) do
+        exchangeclone.base_emc_values[item] = emc
+    end
 end

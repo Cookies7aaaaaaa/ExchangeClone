@@ -4,10 +4,10 @@ local function get_armor_texture(type, matter, preview)
     local modifier
     -- hsl unfortunately only works in 5.8
     if matter == "dark" then
-        modifier = "^[multiply:#222222"
+        modifier = "^[hex:#222222]"
         --modifier = "^[hsl:0:-100:-100^[hsl:0:-100:-100"
     else
-        modifier = "^[multiply:#990000"
+        modifier = "^[hex:#990000]"
         --modifier = "^[hsl:-180:100:-100"
     end
     local result

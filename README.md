@@ -11,8 +11,10 @@ ExchangeClone upports all items in the following mods/games (and anything that c
 * Technic
 * More Ores
 * Ethereal
-* Nether
-* Mobs Redo API and Mobs Animals
+* [Nether]
+* [Mobs Redo API](https://codeberg.org/tenplus1/mobs_redo) and [Mobs Animals](https://github.con/minetest-mods/mobs_animals)
+* [WIP] [Techage](https://github.com/joe7575/techage_modpack) and/or [Tubelib](https://github.com/joe7575/tubelib2)
+* [WIP] [Logistica](https://github.com/ZenonSeth/logistica)
 
 ExchangeClone is tested with the latest release of Minetest, Minetest Game, MineClone2, and Mineclonia.
 
